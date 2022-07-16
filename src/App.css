@@ -1,0 +1,7 @@
+.App {
+  background-color: #181818;
+  min-height: 100vh;
+}
+.line {
+  border-bottom: 1px solid #3b3b3b;
+}
