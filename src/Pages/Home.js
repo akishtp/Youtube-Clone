@@ -1,5 +1,6 @@
 import Card from "../components/Card/Card";
 import Chips from "../components/Chips/Chips";
+import { VideoSetOne } from "../Data/VideoData";
 import "./Home.css";
 
 const Home = () => {
@@ -7,12 +8,19 @@ const Home = () => {
     <div className="home">
       <Chips />
       <div className="cards">
-        <Card title=" What's the weirdest place you've ever pooped? | AskReddit | Rexet #shorts" />
-        <Card title=" What's the weirdest place you've ever pooped? | AskReddit | Rexet#shorts" />
-        <Card title=" What's the weirdest place you've ever pooped? | AskReddit | Rexet#shorts" />
-        <Card title=" What's the weirdest place you've ever pooped? | AskReddit | Rexet#shorts" />
-        <Card title=" What's the weirdest place you've ever pooped? | AskReddit | Rexet#shorts" />
-        <Card title=" W Rexet #shorts" />
+        {VideoSetOne.map((item, index) => {
+          return (
+            <Card
+              key={index}
+              img={item.img}
+              gif={item.gif}
+              title={item.title}
+              channel_title={item.channel_title}
+              views={item.views}
+              time={item.views}
+            />
+          );
+        })}
       </div>
     </div>
   );

@@ -5,12 +5,26 @@
   margin: 0 auto;
   display: grid;
   gap: 2rem 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
 }
 .card {
   display: flex;
   flex-direction: column;
   padding: 1.5%;
+}
+.img-wrapper {
+  width: 100%;
+  position: relative;
+}
+.thumbnail {
+  width: 100%;
+  position: absolute;
+}
+.thumbnail:hover {
+  opacity: 0;
+}
+.playback {
+  width: 99.47%;
 }
 .bottom-half {
   display: flex;
