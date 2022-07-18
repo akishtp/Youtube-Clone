@@ -1,0 +1,29 @@
+.cards {
+  padding: 2rem 1rem 0 0;
+  overflow: hidden;
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5%;
+}
+.bottom-half {
+  display: flex;
+}
+.channel-pfp {
+  padding: 8px;
+}
+.text-stuff {
+  display: flex;
+  flex-direction: column;
+}
+.channel-title,
+.views-n-time {
+  color: #999999;
+  font-size: small;
+}

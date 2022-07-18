@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./Navbar.css";
 
 import * as ImIcons from "react-icons/im";
@@ -11,9 +10,7 @@ import * as FaIcons from "react-icons/fa";
 import Sidebar from "./Sidebar";
 import Sidenav from "./Sidenav";
 
-const Navbar = () => {
-  const [sidebar, setSidebar] = useState(true);
-  const showSidebar = () => setSidebar(!sidebar);
+const Navbar = ({ sidebar, showSidebar }) => {
   return (
     <>
       <nav className="navbar">
