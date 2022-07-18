@@ -5,7 +5,7 @@
   margin: 0 auto;
   display: grid;
   gap: 2rem 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(342px, 1fr));
 }
 .card {
   display: flex;
@@ -22,6 +22,7 @@
 }
 .thumbnail:hover {
   opacity: 0;
+  transition-delay: 0.7s;
 }
 .playback {
   width: 99.47%;
@@ -30,7 +31,7 @@
   display: flex;
 }
 .channel-pfp {
-  padding: 8px;
+  padding: 8px 12px 8px 8px;
 }
 .text-stuff {
   display: flex;

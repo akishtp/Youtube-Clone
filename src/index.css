@@ -7,8 +7,13 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   display: flex;
+  background-color: #181818;
 }
 
 button {
