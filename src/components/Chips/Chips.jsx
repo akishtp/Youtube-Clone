@@ -1,7 +1,7 @@
 import { VideoData } from "../../Data/VideoData";
 import "./Chips.css";
 
-const Chips = () => {
+const Chips = ({ setSelectChip }) => {
   const item = ["All"];
   VideoData.forEach((items) => {
     items.tags.forEach((tag) => {
@@ -10,8 +10,12 @@ const Chips = () => {
   });
   return (
     <div className="chips">
-      {item.map((deta) => {
-        return <div className="chip">{deta}</div>;
+      {item.map((deta, index) => {
+        return (
+          <div className="chip" key={index} onClick={() => setSelectChip(deta)}>
+            {deta}
+          </div>
+        );
       })}
     </div>
   );

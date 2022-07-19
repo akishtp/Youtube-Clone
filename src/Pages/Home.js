@@ -1,14 +1,22 @@
+import { useState } from "react";
 import VideoCard from "../components/Card/VideoCard";
 import Chips from "../components/Chips/Chips";
 import { VideoData } from "../Data/VideoData";
 import "./Home.css";
 
 const Home = () => {
+  const [selectChip, setSelectChip] = useState("All");
+  let VideosData;
+  if (selectChip !== "All") {
+    VideosData = VideoData.filter((data) => data.tags.includes(selectChip));
+  } else {
+    VideosData = VideoData;
+  }
   return (
     <div className="home">
-      <Chips />
+      <Chips setSelectChip={setSelectChip} />
       <div className="cards">
-        {VideoData.map((item, index) => {
+        {VideosData.map((item, index) => {
           return (
             <VideoCard
               key={index}
