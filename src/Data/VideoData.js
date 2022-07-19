@@ -1,4 +1,4 @@
-export const VideoSetOne = [
+export const VideoData = [
   {
     img: "https://i.ytimg.com/vi/MWXdpxgbndw/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMwCHj1CtfYp-KTy6Dd25q_x5wDw",
     title:
@@ -7,7 +7,7 @@ export const VideoSetOne = [
     channel_title: "Rexet",
     views: "10b",
     time: "1 hour",
-    gif: "https://i.ytimg.com/an_webp/MWXdpxgbndw/mqdefault_6s.webp?du=3000&sqp=CKSt1ZYG&rs=AOn4CLCoeCEzPyeSoEV9WB8cF4KKoNYdhA",
+    tags: ["music"],
   },
   {
     img: "https://i.ytimg.com/vi/REfMTm9IDZM/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8_qv1hFmcvLiSJMlxm8M3ptwj8Q",
@@ -16,7 +16,7 @@ export const VideoSetOne = [
     channel_title: "Dani",
     views: "5m",
     time: "3 years",
-    gif: "https://i.ytimg.com/an_webp/6PvbHgNIxQ0/mqdefault_6s.webp?du=3000&sqp=CIaa1JYG&rs=AOn4CLCBvxe4h6_3gtxsdi45chKWFyFYjA",
+    tags: ["Dev", "Gaming", "Comedy"],
   },
   {
     img: "https://i.ytimg.com/vi/BvEKky9N1tQ/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDbPezuVS1btnSLYZfxyelChF0UaA",
@@ -25,7 +25,7 @@ export const VideoSetOne = [
     channel_title: "Let's Game It Out",
     views: "29m",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/BvEKky9N1tQ/mqdefault_6s.webp?du=3000&sqp=CLDj1ZYG&rs=AOn4CLBRd1voy2lkWrffQD0MKneTU5uZ0Q",
+    tags: ["Gaming", "Commentry", "Comedy"],
   },
   {
     img: "https://i.ytimg.com/vi/qRIBW9KN83g/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCcdDvhmXkbYDs5Zm0rpAfbYcQzww",
@@ -34,7 +34,7 @@ export const VideoSetOne = [
     channel_title: "Danny Gonzalez",
     views: "13m",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/qRIBW9KN83g/mqdefault_6s.webp?du=3000&sqp=CPix1JYG&rs=AOn4CLAvjoIqIADiCWEkoCm558643MgdXg",
+    tags: ["Commentry", "Comedy"],
   },
   {
     img: "https://i.ytimg.com/vi/iWOYAxlnaww/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBHvGsmgohir1BFSVLhkBMAWgeHtQ",
@@ -43,16 +43,16 @@ export const VideoSetOne = [
     channel_title: "The Net Ninja",
     views: "445K",
     time: "3 years",
-    gif: "https://i.ytimg.com/an_webp/iWOYAxlnaww/mqdefault_6s.webp?du=3000&sqp=CNjL1ZYG&rs=AOn4CLCV3fD0fsYN-VwhAYMiqDQ6lO_-yg",
+    tags: ["Dev", "Tutorial"],
   },
   {
     img: "https://i.ytimg.com/vi/bYs_zn2pTZo/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBVfaU4QVKHlC4D-rk-FYxU5EHiCg",
     title: "Star Citizen: The Best Game Ever | TechLonger",
     path: "/",
-    channel_title: "The Net Ninja",
+    channel_title: "TechLinked",
     views: "2.5M",
     time: "1 year",
-    gif: "https://i.ytimg.com/an_webp/bYs_zn2pTZo/mqdefault_6s.webp?du=3000&sqp=CNjA1ZYG&rs=AOn4CLCX8NDELDMo0iDNhAIj86XFN38U-w",
+    tags: ["Commentry", "News", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/aNpYMLLCuHk/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBWnyXAWDZwgyYbTGTcgksQkolbfQ",
@@ -61,7 +61,7 @@ export const VideoSetOne = [
     channel_title: "Alex Bale",
     views: "863K",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/aNpYMLLCuHk/mqdefault_6s.webp?du=3000&sqp=CM3H1ZYG&rs=AOn4CLDWNqnIseM4oS4WMQCupcNexEuQTg",
+    tags: ["Animated", "Comedy", "TV shows"],
   },
   {
     img: "https://i.ytimg.com/vi/g2mLOVHZ2u4/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDZgma8P04ufIETMJ6Pq0SNhym0Lg",
@@ -70,7 +70,7 @@ export const VideoSetOne = [
     channel_title: "AustinMcConnell",
     views: "6M",
     time: "1 year",
-    gif: "https://i.ytimg.com/an_webp/g2mLOVHZ2u4/mqdefault_6s.webp?du=3000&sqp=CMra1ZYG&rs=AOn4CLB_lFPm9W81OkeMZCTSM8-D50PnQA",
+    tags: ["Comedy", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/rSvBFm_MuXw/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC0GAyWIHN-aszmmiif7XqniVRGKw",
@@ -79,7 +79,7 @@ export const VideoSetOne = [
     channel_title: "Bosnian Ape Society",
     views: "5.4M",
     time: "1 year",
-    gif: "https://i.ytimg.com/an_webp/rSvBFm_MuXw/mqdefault_6s.webp?du=3000&sqp=CKTa1ZYG&rs=AOn4CLBX2-hdDYp117cqjolZOW_kmT91zA",
+    tags: ["Animated", "Comedy", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/vSAa_ls9grQ/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCWzJw5MM6gAEcLsVejOaQCO1jswg",
@@ -88,7 +88,7 @@ export const VideoSetOne = [
     channel_title: "Marques Brownlee",
     views: "5.3M",
     time: "1 year",
-    gif: "https://i.ytimg.com/an_webp/vSAa_ls9grQ/mqdefault_6s.webp?du=3000&sqp=CMjX1ZYG&rs=AOn4CLBiwPyRvyrQsDgzgmAMVALd08M3FA",
+    tags: ["Tech", "Review", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/0e3GPea1Tyg/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA4n1MnYpJYZlXdk0BJQ6Ml2FQXDQ",
@@ -97,7 +97,7 @@ export const VideoSetOne = [
     channel_title: "MrBeast",
     views: "271M",
     time: "7 months",
-    gif: "https://i.ytimg.com/an_webp/0e3GPea1Tyg/mqdefault_6s.webp?du=3000&sqp=CLjr1ZYG&rs=AOn4CLDpnuJlm5p5xoARDKG01NRubbp_xw",
+    tags: ["Comedy", "TV shows"],
   },
   {
     img: "https://i.ytimg.com/vi/tExo3ovEBWQ/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA6y2kRIffbQSBdTxtMNN-ZRSlFtQ",
@@ -106,7 +106,7 @@ export const VideoSetOne = [
     channel_title: "Nexpo",
     views: "4.3M",
     time: "8 months",
-    gif: "https://i.ytimg.com/an_webp/tExo3ovEBWQ/mqdefault_6s.webp?du=3000&sqp=CODp1ZYG&rs=AOn4CLBuJaSARpSCJc_BoS7svAdrbqdm-w",
+    tags: ["Horror", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/b0IZo2Aho9Y/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCge24ALSBRqBnBRxlxjtgu1uTCig",
@@ -115,7 +115,7 @@ export const VideoSetOne = [
     channel_title: "Fireship",
     views: "330K",
     time: "4 months",
-    gif: "https://i.ytimg.com/an_webp/b0IZo2Aho9Y/mqdefault_6s.webp?du=3000&sqp=CJjn1ZYG&rs=AOn4CLDUaRe7Ca6E1ow5vmuadbyByaBokw",
+    tags: ["Dev", "Tutorial", "Informational"],
   },
   {
     img: "https://i.ytimg.com/vi/A_BlNA7bBxo/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCJGPHotPEb-QARFHcotVVkvwOZWg",
@@ -124,7 +124,7 @@ export const VideoSetOne = [
     channel_title: "Michael Reeves",
     views: "21M",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/A_BlNA7bBxo/mqdefault_6s.webp?du=3000&sqp=CIbz1ZYG&rs=AOn4CLDJ0Pju4IsF4MrQnwdW4lellrWvFg",
+    tags: ["Dev", "Comedy", "Horror"],
   },
   {
     img: "https://i.ytimg.com/vi/kElsSj8hky4/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCbTJHDB3R1PICFLbD1qqK4r9cB1Q",
@@ -133,7 +133,7 @@ export const VideoSetOne = [
     channel_title: "Nerdstalgic",
     views: "11M",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/kElsSj8hky4/mqdefault_6s.webp?du=3000&sqp=CMbP1ZYG&rs=AOn4CLDwqRo5aXUABqdDS_p-a6iHOpflng",
+    tags: ["TV shows", "Commentry"],
   },
   {
     img: "https://i.ytimg.com/vi/LSh2tQ6OyZs/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBvjtvBqa_jNzBnyHkzGYWm4KEpmQ",
@@ -142,6 +142,6 @@ export const VideoSetOne = [
     channel_title: "Will Kwan",
     views: "680K",
     time: "2 years",
-    gif: "https://i.ytimg.com/an_webp/LSh2tQ6OyZs/mqdefault_6s.webp?du=3000&sqp=CMrD1ZYG&rs=AOn4CLDHlRg8A2ItzqdKD5j5l2qY5lt_Kg",
+    tags: ["Dev", "music", "Commentry"],
   },
 ];

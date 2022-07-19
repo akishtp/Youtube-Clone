@@ -1,7 +1,7 @@
 import "./Card.css";
 import * as FaIcons from "react-icons/fa";
 
-const Card = ({ img, gif, title, channel_title, views, time }) => {
+const VideoCard = ({ img, title, channel_title, views, time }) => {
   if (title.length >= 56) {
     title = title.substring(0, 56) + "...";
   }
@@ -9,7 +9,11 @@ const Card = ({ img, gif, title, channel_title, views, time }) => {
     <div className="card">
       <div className="img-wrapper">
         <img src={img} alt="thumbnail not available" className="thumbnail" />
-        <img src={gif} alt="playback not available" className="playback" />
+        <img
+          src="https://c.tenor.com/AqbFEjoxOPYAAAAC/writing-writer.gif"
+          alt="playback not available"
+          className="playback"
+        />
       </div>
       <div className="bottom-half">
         <div className="channel-pfp">
@@ -27,4 +31,4 @@ const Card = ({ img, gif, title, channel_title, views, time }) => {
   );
 };
 
-export default Card;
+export default VideoCard;

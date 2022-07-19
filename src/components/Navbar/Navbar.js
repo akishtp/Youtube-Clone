@@ -30,7 +30,6 @@ const Navbar = ({ sidebar, showSidebar }) => {
             <ImIcons.ImSearch size={18} color="#d9d9d9" />
           </button>
           <button className="voice-button" onClick={showSidebar}>
-            {" "}
             <BsIcons.BsFillMicFill size={18} color="#696969" />
           </button>
         </div>
