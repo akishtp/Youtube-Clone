@@ -6,9 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <div className="chips">
-        <Chips />
-      </div>
+      <Chips />
       <div className="cards">
         {VideoData.map((item, index) => {
           return (

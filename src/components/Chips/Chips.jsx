@@ -9,11 +9,11 @@ const Chips = () => {
     });
   });
   return (
-    <>
+    <div className="chips">
       {item.map((deta) => {
         return <div className="chip">{deta}</div>;
       })}
-    </>
+    </div>
   );
 };
 
