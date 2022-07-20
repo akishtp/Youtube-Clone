@@ -11,21 +11,25 @@ export const SidebarDataOne = [
     title: "Home",
     path: "/",
     icon: <MdIcons.MdHomeFilled size={24} />,
+    class: "sidenav-item",
   },
   {
     title: "Explore",
     path: "/explore",
     icon: <AiIcons.AiOutlineCompass size={24} />,
+    class: "sidenav-item explore",
   },
   {
     title: "Shorts",
     path: "/shorts",
     icon: <GiIcons.GiUnderwearShorts size={24} />,
+    class: "sidenav-item",
   },
   {
     title: "Subscriptions",
     path: "/subscriptions",
     icon: <MdIcons.MdOutlineSubscriptions size={24} />,
+    class: "sidenav-item",
   },
 ];
 

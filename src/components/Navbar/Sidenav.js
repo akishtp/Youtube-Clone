@@ -4,11 +4,11 @@ import { SidebarDataOne } from "./SidebarData";
 
 const Sidenav = () => {
   return (
-    <nav className="sidenav">
+    <div className="sidenav">
       <ul className="sidenav-items">
         {SidebarDataOne.map((item, index) => {
           return (
-            <li key={index} className="sidenav-item">
+            <li key={index} className={item.class}>
               <Link to={item.path}>
                 {item.icon}
                 <span className="sidenav-text">{item.title}</span>
@@ -23,7 +23,7 @@ const Sidenav = () => {
           </Link>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 };
 

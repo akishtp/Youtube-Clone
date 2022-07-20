@@ -34,7 +34,7 @@ export const VideoData = [
     channel_title: "Danny Gonzalez",
     views: "13m",
     time: "2 years",
-    tags: ["Commentry", "Comedy"],
+    tags: ["Commentry", "Comedy", "Disney"],
   },
   {
     img: "https://i.ytimg.com/vi/iWOYAxlnaww/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBHvGsmgohir1BFSVLhkBMAWgeHtQ",
@@ -43,7 +43,7 @@ export const VideoData = [
     channel_title: "The Net Ninja",
     views: "445K",
     time: "3 years",
-    tags: ["Dev", "Tutorial"],
+    tags: ["Dev", "Tutorial", "Javascript", "Computers"],
   },
   {
     img: "https://i.ytimg.com/vi/bYs_zn2pTZo/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBVfaU4QVKHlC4D-rk-FYxU5EHiCg",
@@ -52,7 +52,7 @@ export const VideoData = [
     channel_title: "TechLinked",
     views: "2.5M",
     time: "1 year",
-    tags: ["Commentry", "News", "Informational"],
+    tags: ["Commentry", "News", "Informational", "Gaming"],
   },
   {
     img: "https://i.ytimg.com/vi/aNpYMLLCuHk/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBWnyXAWDZwgyYbTGTcgksQkolbfQ",
@@ -61,7 +61,7 @@ export const VideoData = [
     channel_title: "Alex Bale",
     views: "863K",
     time: "2 years",
-    tags: ["Animated", "Comedy", "TV shows"],
+    tags: ["Animated", "Comedy", "TV shows", "Disney"],
   },
   {
     img: "https://i.ytimg.com/vi/g2mLOVHZ2u4/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDZgma8P04ufIETMJ6Pq0SNhym0Lg",
@@ -88,7 +88,7 @@ export const VideoData = [
     channel_title: "Marques Brownlee",
     views: "5.3M",
     time: "1 year",
-    tags: ["Tech", "Review", "Informational"],
+    tags: ["Tech", "Review", "Informational", "Apple", "Computers"],
   },
   {
     img: "https://i.ytimg.com/vi/0e3GPea1Tyg/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA4n1MnYpJYZlXdk0BJQ6Ml2FQXDQ",
@@ -115,7 +115,7 @@ export const VideoData = [
     channel_title: "Fireship",
     views: "330K",
     time: "4 months",
-    tags: ["Dev", "Tutorial", "Informational"],
+    tags: ["Dev", "Tutorial", "Informational", "Javascript"],
   },
   {
     img: "https://i.ytimg.com/vi/A_BlNA7bBxo/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCJGPHotPEb-QARFHcotVVkvwOZWg",
@@ -133,7 +133,7 @@ export const VideoData = [
     channel_title: "Nerdstalgic",
     views: "11M",
     time: "2 years",
-    tags: ["TV shows", "Commentry"],
+    tags: ["TV shows", "Commentry", "Film Critique"],
   },
   {
     img: "https://i.ytimg.com/vi/LSh2tQ6OyZs/hq720.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBvjtvBqa_jNzBnyHkzGYWm4KEpmQ",
@@ -142,6 +142,6 @@ export const VideoData = [
     channel_title: "Will Kwan",
     views: "680K",
     time: "2 years",
-    tags: ["Dev", "music", "Commentry"],
+    tags: ["Dev", "music", "Commentry", "AI & ML", "Computers"],
   },
 ];

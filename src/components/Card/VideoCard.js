@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./VideoCard.css";
 import * as FaIcons from "react-icons/fa";
 
 const VideoCard = ({ img, title, channel_title, views, time }) => {

@@ -183,3 +183,35 @@
   font-size: 9px;
   padding: 4px 0 0 0;
 }
+@media (max-width: 747px) {
+  .sidebar {
+    position: absolute;
+  }
+  .sidenav {
+    all: unset;
+    background-color: #212121;
+    height: 4rem;
+    width: 100vw;
+    position: fixed;
+    margin: calc(100vh - 4rem) 0 0 0;
+  }
+  .sidenav-items {
+    all: unset;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .sidenav-item {
+    all: unset;
+  }
+  .sidenav-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 4rem;
+  }
+  .explore {
+    display: none;
+  }
+}

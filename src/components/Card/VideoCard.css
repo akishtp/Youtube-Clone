@@ -1,5 +1,5 @@
 .cards {
-  padding: 2rem 0;
+  padding: 1rem 0;
   overflow: hidden;
   width: 98%;
   margin: 0 auto;
@@ -8,6 +8,7 @@
   grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
 }
 .card {
+  max-width: calc(100vw / 4);
   display: flex;
   flex-direction: column;
   padding: 1.5%;
@@ -41,4 +42,23 @@
 .views-n-time {
   color: #999999;
   font-size: small;
+}
+
+@media (max-width: 747px) {
+  .card {
+    max-width: none;
+    padding: 0;
+  }
+  .img-wrapper {
+    position: initial;
+  }
+  .thumbnail {
+    position: initial;
+  }
+  .thumbnail:hover {
+    opacity: 100%;
+  }
+  .playback {
+    display: none;
+  }
 }
